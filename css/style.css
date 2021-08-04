@@ -1,0 +1,69 @@
+body {
+  background-color: #2b292e;
+}
+
+.header {
+  background: #6f439c;
+  color: white;
+}
+
+.box {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 16px 24px;
+  color: white;
+}
+
+.header-title {
+  font-weight: 700;
+}
+
+.header-text {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+#filter,
+#recipe-name,
+#input-ingredient {
+  width: 30%;
+}
+
+.action-sect {
+  background: #353239;
+}
+
+.item {
+  display: block;
+  border: 1px grey solid;
+  padding: 0.7rem;
+  cursor: pointer;
+  color: white;
+}
+
+.item:hover {
+  background-color: #3d3941;
+  text-decoration: none;
+  color: white;
+}
+
+.item > span {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.feedback {
+  font-size: 1rem;
+  color: rgb(129, 80, 179);
+  font-weight: 500;
+}
+
+.feedback-text{
+  color: white;
+  font-weight: 700;
+}
+
+.remove-ingredient {
+  font-size: 10px;
+  padding: 5px;
+}
